@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1DD38D11A48A33C00F07300 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38D01A48A33C00F07300 /* main.m */; };
+		F1DD38D41A48A33C00F07300 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38D31A48A33C00F07300 /* AppDelegate.m */; };
+		F1DD38D71A48A33C00F07300 /* Zinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38D51A48A33C00F07300 /* Zinder.xcdatamodeld */; };
+		F1DD38DA1A48A33C00F07300 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38D91A48A33C00F07300 /* ViewController.m */; };
+		F1DD38DD1A48A33C00F07300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DD38DB1A48A33C00F07300 /* Main.storyboard */; };
+		F1DD38EE1A48A33C00F07300 /* ZinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38ED1A48A33C00F07300 /* ZinderTests.m */; };
+		F1DD38F81A48A45600F07300 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1DD38F71A48A45600F07300 /* Images.xcassets */; };
+		F1DD39021A48A48400F07300 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38FA1A48A48400F07300 /* DraggableView.m */; };
+		F1DD39031A48A48400F07300 /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */; };
+		F1DD39041A48A48400F07300 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1DD38FE1A48A48400F07300 /* InfoPlist.strings */; };
+		F1DD39051A48A48400F07300 /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DD39011A48A48400F07300 /* OverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1DD38E81A48A33C00F07300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1DD38C31A48A33B00F07300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1DD38CA1A48A33C00F07300;
+			remoteInfo = Zinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1DD38CB1A48A33C00F07300 /* Zinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD38CF1A48A33C00F07300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD38D01A48A33C00F07300 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1DD38D21A48A33C00F07300 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F1DD38D31A48A33C00F07300 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F1DD38D61A48A33C00F07300 /* Zinder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zinder.xcdatamodel; sourceTree = "<group>"; };
+		F1DD38D81A48A33C00F07300 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F1DD38D91A48A33C00F07300 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F1DD38DC1A48A33C00F07300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1DD38E71A48A33C00F07300 /* ZinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1DD38EC1A48A33C00F07300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1DD38ED1A48A33C00F07300 /* ZinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZinderTests.m; sourceTree = "<group>"; };
+		F1DD38F71A48A45600F07300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1DD38F91A48A48400F07300 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = Zinder/DraggableView.h; sourceTree = "<group>"; };
+		F1DD38FA1A48A48400F07300 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = Zinder/DraggableView.m; sourceTree = "<group>"; };
+		F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableViewBackground.h; path = Zinder/DraggableViewBackground.h; sourceTree = "<group>"; };
+		F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableViewBackground.m; path = Zinder/DraggableViewBackground.m; sourceTree = "<group>"; };
+		F1DD38FF1A48A48400F07300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		F1DD39001A48A48400F07300 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = Zinder/OverlayView.h; sourceTree = "<group>"; };
+		F1DD39011A48A48400F07300 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = Zinder/OverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1DD38C81A48A33C00F07300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD38E41A48A33C00F07300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1DD38C21A48A33B00F07300 = {
+			isa = PBXGroup;
+			children = (
+				F1DD38F91A48A48400F07300 /* DraggableView.h */,
+				F1DD38FA1A48A48400F07300 /* DraggableView.m */,
+				F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */,
+				F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */,
+				F1DD38FD1A48A48400F07300 /* en.lproj */,
+				F1DD39001A48A48400F07300 /* OverlayView.h */,
+				F1DD39011A48A48400F07300 /* OverlayView.m */,
+				F1DD38CD1A48A33C00F07300 /* Zinder */,
+				F1DD38EA1A48A33C00F07300 /* ZinderTests */,
+				F1DD38CC1A48A33C00F07300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1DD38CC1A48A33C00F07300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38CB1A48A33C00F07300 /* Zinder.app */,
+				F1DD38E71A48A33C00F07300 /* ZinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1DD38CD1A48A33C00F07300 /* Zinder */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38D21A48A33C00F07300 /* AppDelegate.h */,
+				F1DD38D31A48A33C00F07300 /* AppDelegate.m */,
+				F1DD38D81A48A33C00F07300 /* ViewController.h */,
+				F1DD38D91A48A33C00F07300 /* ViewController.m */,
+				F1DD38DB1A48A33C00F07300 /* Main.storyboard */,
+				F1DD38F71A48A45600F07300 /* Images.xcassets */,
+				F1DD38D51A48A33C00F07300 /* Zinder.xcdatamodeld */,
+				F1DD38CE1A48A33C00F07300 /* Supporting Files */,
+			);
+			path = Zinder;
+			sourceTree = "<group>";
+		};
+		F1DD38CE1A48A33C00F07300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38CF1A48A33C00F07300 /* Info.plist */,
+				F1DD38D01A48A33C00F07300 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1DD38EA1A48A33C00F07300 /* ZinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38ED1A48A33C00F07300 /* ZinderTests.m */,
+				F1DD38EB1A48A33C00F07300 /* Supporting Files */,
+			);
+			path = ZinderTests;
+			sourceTree = "<group>";
+		};
+		F1DD38EB1A48A33C00F07300 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38EC1A48A33C00F07300 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1DD38FD1A48A48400F07300 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				F1DD38FE1A48A48400F07300 /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			path = Zinder/en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1DD38CA1A48A33C00F07300 /* Zinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD38F11A48A33C00F07300 /* Build configuration list for PBXNativeTarget "Zinder" */;
+			buildPhases = (
+				F1DD38C71A48A33C00F07300 /* Sources */,
+				F1DD38C81A48A33C00F07300 /* Frameworks */,
+				F1DD38C91A48A33C00F07300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zinder;
+			productName = Zinder;
+			productReference = F1DD38CB1A48A33C00F07300 /* Zinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1DD38E61A48A33C00F07300 /* ZinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1DD38F41A48A33C00F07300 /* Build configuration list for PBXNativeTarget "ZinderTests" */;
+			buildPhases = (
+				F1DD38E31A48A33C00F07300 /* Sources */,
+				F1DD38E41A48A33C00F07300 /* Frameworks */,
+				F1DD38E51A48A33C00F07300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1DD38E91A48A33C00F07300 /* PBXTargetDependency */,
+			);
+			name = ZinderTests;
+			productName = ZinderTests;
+			productReference = F1DD38E71A48A33C00F07300 /* ZinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1DD38C31A48A33B00F07300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Diego Calvo";
+				TargetAttributes = {
+					F1DD38CA1A48A33C00F07300 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					F1DD38E61A48A33C00F07300 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = F1DD38CA1A48A33C00F07300;
+					};
+				};
+			};
+			buildConfigurationList = F1DD38C61A48A33B00F07300 /* Build configuration list for PBXProject "Zinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1DD38C21A48A33B00F07300;
+			productRefGroup = F1DD38CC1A48A33C00F07300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1DD38CA1A48A33C00F07300 /* Zinder */,
+				F1DD38E61A48A33C00F07300 /* ZinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1DD38C91A48A33C00F07300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD38DD1A48A33C00F07300 /* Main.storyboard in Resources */,
+				F1DD39041A48A48400F07300 /* InfoPlist.strings in Resources */,
+				F1DD38F81A48A45600F07300 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD38E51A48A33C00F07300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1DD38C71A48A33C00F07300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD39031A48A48400F07300 /* DraggableViewBackground.m in Sources */,
+				F1DD38D41A48A33C00F07300 /* AppDelegate.m in Sources */,
+				F1DD39051A48A48400F07300 /* OverlayView.m in Sources */,
+				F1DD38D71A48A33C00F07300 /* Zinder.xcdatamodeld in Sources */,
+				F1DD38DA1A48A33C00F07300 /* ViewController.m in Sources */,
+				F1DD38D11A48A33C00F07300 /* main.m in Sources */,
+				F1DD39021A48A48400F07300 /* DraggableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1DD38E31A48A33C00F07300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1DD38EE1A48A33C00F07300 /* ZinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1DD38E91A48A33C00F07300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1DD38CA1A48A33C00F07300 /* Zinder */;
+			targetProxy = F1DD38E81A48A33C00F07300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1DD38DB1A48A33C00F07300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD38DC1A48A33C00F07300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1DD38FE1A48A48400F07300 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1DD38FF1A48A48400F07300 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1DD38EF1A48A33C00F07300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1DD38F01A48A33C00F07300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1DD38F21A48A33C00F07300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1DD38F31A48A33C00F07300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1DD38F51A48A33C00F07300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zinder.app/Zinder";
+			};
+			name = Debug;
+		};
+		F1DD38F61A48A33C00F07300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zinder.app/Zinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1DD38C61A48A33B00F07300 /* Build configuration list for PBXProject "Zinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD38EF1A48A33C00F07300 /* Debug */,
+				F1DD38F01A48A33C00F07300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1DD38F11A48A33C00F07300 /* Build configuration list for PBXNativeTarget "Zinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD38F21A48A33C00F07300 /* Debug */,
+				F1DD38F31A48A33C00F07300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1DD38F41A48A33C00F07300 /* Build configuration list for PBXNativeTarget "ZinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1DD38F51A48A33C00F07300 /* Debug */,
+				F1DD38F61A48A33C00F07300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F1DD38D51A48A33C00F07300 /* Zinder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F1DD38D61A48A33C00F07300 /* Zinder.xcdatamodel */,
+			);
+			currentVersion = F1DD38D61A48A33C00F07300 /* Zinder.xcdatamodel */;
+			path = Zinder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F1DD38C31A48A33B00F07300 /* Project object */;
+}
