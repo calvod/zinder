@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0FBDAFB-C446-417E-8A74-1E7528ABE6CC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Zinder</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D8AB0657C88E69635AA93A365FA2EEEBC5D8C272</key>
+		<string>https://github.com/calvod/zinder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Zinder.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D8AB0657C88E69635AA93A365FA2EEEBC5D8C272</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/calvod/zinder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D8AB0657C88E69635AA93A365FA2EEEBC5D8C272</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D8AB0657C88E69635AA93A365FA2EEEBC5D8C272</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Zinder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

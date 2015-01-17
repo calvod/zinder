@@ -44,13 +44,15 @@
 		F1DD38EC1A48A33C00F07300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1DD38ED1A48A33C00F07300 /* ZinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZinderTests.m; sourceTree = "<group>"; };
 		F1DD38F71A48A45600F07300 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F1DD38F91A48A48400F07300 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableView.h; path = Zinder/DraggableView.h; sourceTree = "<group>"; };
-		F1DD38FA1A48A48400F07300 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableView.m; path = Zinder/DraggableView.m; sourceTree = "<group>"; };
-		F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DraggableViewBackground.h; path = Zinder/DraggableViewBackground.h; sourceTree = "<group>"; };
-		F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DraggableViewBackground.m; path = Zinder/DraggableViewBackground.m; sourceTree = "<group>"; };
+		F1DD38F91A48A48400F07300 /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		F1DD38FA1A48A48400F07300 /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
 		F1DD38FF1A48A48400F07300 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
-		F1DD39001A48A48400F07300 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverlayView.h; path = Zinder/OverlayView.h; sourceTree = "<group>"; };
-		F1DD39011A48A48400F07300 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverlayView.m; path = Zinder/OverlayView.m; sourceTree = "<group>"; };
+		F1DD39001A48A48400F07300 /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		F1DD39011A48A48400F07300 /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+		F1F1B4351A5232F400D78536 /* FavoritesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		F1F1B4361A52333400D78536 /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,13 +76,7 @@
 		F1DD38C21A48A33B00F07300 = {
 			isa = PBXGroup;
 			children = (
-				F1DD38F91A48A48400F07300 /* DraggableView.h */,
-				F1DD38FA1A48A48400F07300 /* DraggableView.m */,
-				F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */,
-				F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */,
 				F1DD38FD1A48A48400F07300 /* en.lproj */,
-				F1DD39001A48A48400F07300 /* OverlayView.h */,
-				F1DD39011A48A48400F07300 /* OverlayView.m */,
 				F1DD38CD1A48A33C00F07300 /* Zinder */,
 				F1DD38EA1A48A33C00F07300 /* ZinderTests */,
 				F1DD38CC1A48A33C00F07300 /* Products */,
@@ -99,6 +95,14 @@
 		F1DD38CD1A48A33C00F07300 /* Zinder */ = {
 			isa = PBXGroup;
 			children = (
+				F1DD39001A48A48400F07300 /* OverlayView.h */,
+				F1DD39011A48A48400F07300 /* OverlayView.m */,
+				F1DD38F91A48A48400F07300 /* DraggableView.h */,
+				F1DD38FA1A48A48400F07300 /* DraggableView.m */,
+				F1DD38FB1A48A48400F07300 /* DraggableViewBackground.h */,
+				F1DD38FC1A48A48400F07300 /* DraggableViewBackground.m */,
+				F1F1B4351A5232F400D78536 /* FavoritesViewController.h */,
+				F1F1B4361A52333400D78536 /* FavoritesViewController.m */,
 				F1DD38D21A48A33C00F07300 /* AppDelegate.h */,
 				F1DD38D31A48A33C00F07300 /* AppDelegate.m */,
 				F1DD38D81A48A33C00F07300 /* ViewController.h */,
@@ -443,6 +447,7 @@
 				F1DD38F31A48A33C00F07300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1DD38F41A48A33C00F07300 /* Build configuration list for PBXNativeTarget "ZinderTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +456,7 @@
 				F1DD38F61A48A33C00F07300 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

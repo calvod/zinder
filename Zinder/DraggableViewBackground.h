@@ -2,6 +2,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DraggableView.h"
+#import "FavoritesViewController.h"
 
 @interface DraggableViewBackground : UIView <DraggableViewDelegate>
 
@@ -11,6 +12,7 @@
 
 @property (retain,nonatomic)NSArray* exampleCardLabels;
 @property (retain,nonatomic)NSMutableArray* allCards;
+@property (retain,nonatomic)FavoritesViewController* favorites;
 
 
 @end

@@ -25,11 +25,11 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     if (self) {
         [super layoutSubviews];
         [self setupView];
-        exampleCardLabels = [[NSArray alloc]initWithObjects:@"tunic.png",
-                             @"wallet.png",
+        exampleCardLabels = [[NSArray alloc]initWithObjects:@"headband.png",
+                             @"shirt.png",
+                             @"bag.png",
                              @"pants.png",
-                             @"shoes.png",
-                             @"bag.png", nil];
+                             @"shoes.png", nil];
         loadedCards = [[NSMutableArray alloc] init];
         allCards = [[NSMutableArray alloc] init];
         cardsLoadedIndex = 0;
@@ -56,12 +56,16 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     [self addSubview:messageButton];
     [self addSubview:xButton];
     [self addSubview:checkButton];
+    
+    //set up Favorites view controller
+    [self.favorites viewDidLoad];
 }
 
 //%%% creates a card and returns it.
 -(DraggableView *)createDraggableViewWithDataAtIndex:(NSInteger)index
 {
     DraggableView *draggableView = [[DraggableView alloc]initWithFrame:CGRectMake((self.frame.size.width - CARD_WIDTH)/2, (self.frame.size.height - CARD_HEIGHT)/2, CARD_WIDTH, CARD_HEIGHT)];
+    NSLog(@"%f %f", CARD_WIDTH, CARD_HEIGHT);
     draggableView.information.text = [exampleCardLabels objectAtIndex:index];
     //set up the picture
     [draggableView loadImageAndStyle];
@@ -101,14 +105,9 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     }
 }
 
-#warning include own action here!
 //%%% action called when the card goes to the left.
-// This should be customized with your own action
 -(void)cardSwipedLeft:(UIView *)card;
 {
-    //do whatever you want with the card that was swiped
-    //    DraggableView *c = (DraggableView *)card;
-    
     [loadedCards removeObjectAtIndex:0]; //%%% card was swiped, so it's no longer a "loaded card"
     
     if (cardsLoadedIndex < [allCards count]) { //%%% if we haven't reached the end of all cards, put another into the loaded cards
@@ -118,14 +117,13 @@ static const float CARD_WIDTH = 290; //%%% width of the draggable card
     }
 }
 
-#warning include own action here!
 //%%% action called when the card goes to the right.
-// This should be customized with your own action
 -(void)cardSwipedRight:(UIView *)card
 {
-    //do whatever you want with the card that was swiped
-    //    DraggableView *c = (DraggableView *)card;
-    
+   // NSLog(@"%@", [exampleCardLabels objectAtIndex:cardsLoadedIndex - 1]);
+    //card.
+    //[self.favorites.favoriteItems addObject:[exampleCardLabels objectAtIndex:cardsLoadedIndex - 1]];
+    //NSLog(@"%@", [self.favorites.favoriteItems objectAtIndex:[self.favorites.favoriteItems.count - 1]]);
     [loadedCards removeObjectAtIndex:0]; //%%% card was swiped, so it's no longer a "loaded card"
     
     if (cardsLoadedIndex < [allCards count]) { //%%% if we haven't reached the end of all cards, put another into the loaded cards

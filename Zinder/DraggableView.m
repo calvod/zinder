@@ -28,6 +28,7 @@
         [self setupView];
         
         information = [[UILabel alloc]initWithFrame:CGRectMake(0, 50, self.frame.size.width, 100)];
+        NSLog(@"%f", self.frame.size.width);
         information.text = @"no info given";
         [information setTextAlignment:NSTextAlignmentCenter];
         information.textColor = [UIColor blackColor];
